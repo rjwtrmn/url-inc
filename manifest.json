@@ -3,8 +3,7 @@
   "description": "Allows for easy navigation between sequential URLs.",
   "version": "1.0",
   "manifest_version": 3,
-  "action": {},
-  "permissions": ["tabs", "scripting"],
+  "permissions": ["tabs"],
   "background": {
     "service_worker": "background.js"
   },
