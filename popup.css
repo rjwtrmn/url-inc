@@ -1,0 +1,31 @@
+button {
+	background: #006f6f;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	padding: 5px;
+	user-select: none;
+	white-space: nowrap;
+	width: 100%;
+}
+button:first-of-type {
+	margin-bottom: 5px;
+}
+button:hover {
+	background: #001c1c;
+}
+h1 {
+	margin: 0;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 14px;
+	margin: 0;
+	margin-bottom: 3px;
+}
+body {
+	width: 200px;
+}
