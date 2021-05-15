@@ -1,0 +1,25 @@
+{
+  "name": "URL, Inc.",
+  "description": "Allows for easy navigation between sequential URLs.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {},
+  "permissions": ["tabs", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "go-to-next": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L"
+      },
+      "description": "Go to next page."
+    },
+    "go-to-previous": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K"
+      },
+      "description": "Go to previous page."
+    }
+  }
+}
